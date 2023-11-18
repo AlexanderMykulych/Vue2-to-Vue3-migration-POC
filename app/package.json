@@ -1,0 +1,24 @@
+{
+  "name": "vue2app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@unocss/vite": "0.57.5",
+    "@vitejs/plugin-vue2": "2.3.1",
+    "mcomponent1": "workspace:*",
+    "vue": "2.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.0",
+    "typescript": "^5.2.2",
+    "unocss": "^0.57.3",
+    "vite": "^5.0.0",
+    "vue-tsc": "^1.8.22"
+  }
+}
