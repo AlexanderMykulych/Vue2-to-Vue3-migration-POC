@@ -12,7 +12,8 @@
     "@unocss/vite": "0.57.5",
     "@vitejs/plugin-vue2": "2.3.1",
     "mcomponent1": "workspace:*",
-    "vue": "2.7"
+    "vue": "2.7",
+    "vuex": "3.6.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.5.0",

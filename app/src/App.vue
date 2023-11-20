@@ -1,9 +1,10 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
+import Vue2WithVuex from './components/Vue2WithVuex.vue'
 </script>
 
 <template>
-  <HelloWorld msg="Vite + Vue" />
+  <Vue2WithVuex />
 </template>
 
 <style scoped>

@@ -4,20 +4,20 @@ const props = defineProps<{
 }>()
 
 const emits = defineEmits<{
-  'update:count': [count: number]
+  (event: 'updateCount', count: number): void
 }>()
 
 const { count, inc, dec } = useCounter(props.count)
 
-watch(count, () => emits('update:count', count.value))
+watch(count, () => emits('updateCount', count.value))
 </script>
 
 <template>
   <div flex flex-col>
     <div>
-      Vue 2 library
+      Vue 3 library
     </div>
-    {{ count }}
+    {{ count }} * 2 = {{ count * 2 }}
     <button class="inc" @click="inc()">
       +
     </button>

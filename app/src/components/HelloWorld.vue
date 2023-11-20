@@ -44,7 +44,7 @@ const updateCount = (val: number) => {
     <MigratedCounter
       class="b-green b-2 b-solid p-10"
       :count="count"
-      @update:count="updateCount"
+      @updateCount="updateCount"
     />
 
   </div>
